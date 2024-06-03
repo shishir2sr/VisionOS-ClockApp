@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2407B4412C0D736B00190C13 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 2407B4402C0D736B00190C13 /* RealityKitContent */; };
+		2407B4432C0D736B00190C13 /* Analog_ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B4422C0D736B00190C13 /* Analog_ClockApp.swift */; };
+		2407B4452C0D736B00190C13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B4442C0D736B00190C13 /* ContentView.swift */; };
+		2407B4472C0D736B00190C13 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B4462C0D736B00190C13 /* ImmersiveView.swift */; };
+		2407B4492C0D736D00190C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2407B4482C0D736D00190C13 /* Assets.xcassets */; };
+		2407B44C2C0D736D00190C13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2407B44B2C0D736D00190C13 /* Preview Assets.xcassets */; };
+		2407B4572C0D736D00190C13 /* Analog_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B4562C0D736D00190C13 /* Analog_ClockTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2407B4532C0D736D00190C13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2407B4332C0D736B00190C13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2407B43A2C0D736B00190C13;
+			remoteInfo = "Analog Clock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2407B43B2C0D736B00190C13 /* Analog Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Analog Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2407B43F2C0D736B00190C13 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		2407B4422C0D736B00190C13 /* Analog_ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analog_ClockApp.swift; sourceTree = "<group>"; };
+		2407B4442C0D736B00190C13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2407B4462C0D736B00190C13 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		2407B4482C0D736D00190C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2407B44B2C0D736D00190C13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2407B44D2C0D736D00190C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2407B4522C0D736D00190C13 /* Analog ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Analog ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2407B4562C0D736D00190C13 /* Analog_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analog_ClockTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2407B4382C0D736B00190C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2407B4412C0D736B00190C13 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2407B44F2C0D736D00190C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2407B4322C0D736B00190C13 = {
+			isa = PBXGroup;
+			children = (
+				2407B43D2C0D736B00190C13 /* Analog Clock */,
+				2407B43E2C0D736B00190C13 /* Packages */,
+				2407B4552C0D736D00190C13 /* Analog ClockTests */,
+				2407B43C2C0D736B00190C13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2407B43C2C0D736B00190C13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2407B43B2C0D736B00190C13 /* Analog Clock.app */,
+				2407B4522C0D736D00190C13 /* Analog ClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2407B43D2C0D736B00190C13 /* Analog Clock */ = {
+			isa = PBXGroup;
+			children = (
+				2407B4422C0D736B00190C13 /* Analog_ClockApp.swift */,
+				2407B4442C0D736B00190C13 /* ContentView.swift */,
+				2407B4462C0D736B00190C13 /* ImmersiveView.swift */,
+				2407B4482C0D736D00190C13 /* Assets.xcassets */,
+				2407B44D2C0D736D00190C13 /* Info.plist */,
+				2407B44A2C0D736D00190C13 /* Preview Content */,
+			);
+			path = "Analog Clock";
+			sourceTree = "<group>";
+		};
+		2407B43E2C0D736B00190C13 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2407B43F2C0D736B00190C13 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		2407B44A2C0D736D00190C13 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2407B44B2C0D736D00190C13 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2407B4552C0D736D00190C13 /* Analog ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				2407B4562C0D736D00190C13 /* Analog_ClockTests.swift */,
+			);
+			path = "Analog ClockTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2407B43A2C0D736B00190C13 /* Analog Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2407B45A2C0D736D00190C13 /* Build configuration list for PBXNativeTarget "Analog Clock" */;
+			buildPhases = (
+				2407B4372C0D736B00190C13 /* Sources */,
+				2407B4382C0D736B00190C13 /* Frameworks */,
+				2407B4392C0D736B00190C13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Analog Clock";
+			packageProductDependencies = (
+				2407B4402C0D736B00190C13 /* RealityKitContent */,
+			);
+			productName = "Analog Clock";
+			productReference = 2407B43B2C0D736B00190C13 /* Analog Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2407B4512C0D736D00190C13 /* Analog ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2407B45D2C0D736D00190C13 /* Build configuration list for PBXNativeTarget "Analog ClockTests" */;
+			buildPhases = (
+				2407B44E2C0D736D00190C13 /* Sources */,
+				2407B44F2C0D736D00190C13 /* Frameworks */,
+				2407B4502C0D736D00190C13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2407B4542C0D736D00190C13 /* PBXTargetDependency */,
+			);
+			name = "Analog ClockTests";
+			productName = "Analog ClockTests";
+			productReference = 2407B4522C0D736D00190C13 /* Analog ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2407B4332C0D736B00190C13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2407B43A2C0D736B00190C13 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					2407B4512C0D736D00190C13 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 2407B43A2C0D736B00190C13;
+					};
+				};
+			};
+			buildConfigurationList = 2407B4362C0D736B00190C13 /* Build configuration list for PBXProject "Analog Clock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2407B4322C0D736B00190C13;
+			productRefGroup = 2407B43C2C0D736B00190C13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2407B43A2C0D736B00190C13 /* Analog Clock */,
+				2407B4512C0D736D00190C13 /* Analog ClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2407B4392C0D736B00190C13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2407B44C2C0D736D00190C13 /* Preview Assets.xcassets in Resources */,
+				2407B4492C0D736D00190C13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2407B4502C0D736D00190C13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2407B4372C0D736B00190C13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2407B4452C0D736B00190C13 /* ContentView.swift in Sources */,
+				2407B4432C0D736B00190C13 /* Analog_ClockApp.swift in Sources */,
+				2407B4472C0D736B00190C13 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2407B44E2C0D736D00190C13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2407B4572C0D736D00190C13 /* Analog_ClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2407B4542C0D736D00190C13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2407B43A2C0D736B00190C13 /* Analog Clock */;
+			targetProxy = 2407B4532C0D736D00190C13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2407B4582C0D736D00190C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		2407B4592C0D736D00190C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		2407B45B2C0D736D00190C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Analog Clock/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BL4KQW6R5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjit.Analog-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		2407B45C2C0D736D00190C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Analog Clock/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BL4KQW6R5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjit.Analog-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		2407B45E2C0D736D00190C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BL4KQW6R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjit.Analog-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Analog Clock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Analog Clock";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		2407B45F2C0D736D00190C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BL4KQW6R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjit.Analog-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Analog Clock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Analog Clock";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2407B4362C0D736B00190C13 /* Build configuration list for PBXProject "Analog Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2407B4582C0D736D00190C13 /* Debug */,
+				2407B4592C0D736D00190C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2407B45A2C0D736D00190C13 /* Build configuration list for PBXNativeTarget "Analog Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2407B45B2C0D736D00190C13 /* Debug */,
+				2407B45C2C0D736D00190C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2407B45D2C0D736D00190C13 /* Build configuration list for PBXNativeTarget "Analog ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2407B45E2C0D736D00190C13 /* Debug */,
+				2407B45F2C0D736D00190C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2407B4402C0D736B00190C13 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2407B4332C0D736B00190C13 /* Project object */;
+}

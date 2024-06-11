@@ -21,15 +21,7 @@ git clone https://github.com/yourusername/VisionOS-ClockApp.git
 
 2. Navigate into the project directory:
 
-```sh
-cd VisionOS-AnalogClock
-```
-
 3. Open the project in Xcode:
-
-```sh
-open VisionOS-AnalogClock.xcodeproj
-```
 
 4. Run the app by pressing the play button at the top left corner of Xcode.
 

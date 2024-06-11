@@ -11,11 +11,9 @@ import SwiftUI
 struct Analog_ClockApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AnalogClockView()
         }
-
-        ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
-        }
+        .windowStyle(.plain)
+        
     }
 }

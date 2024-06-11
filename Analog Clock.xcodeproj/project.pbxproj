@@ -10,10 +10,15 @@
 		2407B4412C0D736B00190C13 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 2407B4402C0D736B00190C13 /* RealityKitContent */; };
 		2407B4432C0D736B00190C13 /* Analog_ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B4422C0D736B00190C13 /* Analog_ClockApp.swift */; };
 		2407B4452C0D736B00190C13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B4442C0D736B00190C13 /* ContentView.swift */; };
-		2407B4472C0D736B00190C13 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B4462C0D736B00190C13 /* ImmersiveView.swift */; };
 		2407B4492C0D736D00190C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2407B4482C0D736D00190C13 /* Assets.xcassets */; };
 		2407B44C2C0D736D00190C13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2407B44B2C0D736D00190C13 /* Preview Assets.xcassets */; };
 		2407B4572C0D736D00190C13 /* Analog_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B4562C0D736D00190C13 /* Analog_ClockTests.swift */; };
+		2407B4622C0D7AC800190C13 /* HourHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B4612C0D7AC800190C13 /* HourHand.swift */; };
+		2407B4642C0D7AD400190C13 /* SecondHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B4632C0D7AD400190C13 /* SecondHand.swift */; };
+		2407B4662C0D7ADC00190C13 /* MinuteHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B4652C0D7ADC00190C13 /* MinuteHand.swift */; };
+		2407B4682C0D7B8000190C13 /* ClockFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B4672C0D7B8000190C13 /* ClockFace.swift */; };
+		2407B46A2C0D7BBB00190C13 /* ClockHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B4692C0D7BBB00190C13 /* ClockHands.swift */; };
+		2407B46C2C0D7BF700190C13 /* AnalogClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407B46B2C0D7BF700190C13 /* AnalogClockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +36,17 @@
 		2407B43F2C0D736B00190C13 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		2407B4422C0D736B00190C13 /* Analog_ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analog_ClockApp.swift; sourceTree = "<group>"; };
 		2407B4442C0D736B00190C13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2407B4462C0D736B00190C13 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		2407B4482C0D736D00190C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2407B44B2C0D736D00190C13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2407B44D2C0D736D00190C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2407B4522C0D736D00190C13 /* Analog ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Analog ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2407B4562C0D736D00190C13 /* Analog_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analog_ClockTests.swift; sourceTree = "<group>"; };
+		2407B4612C0D7AC800190C13 /* HourHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourHand.swift; sourceTree = "<group>"; };
+		2407B4632C0D7AD400190C13 /* SecondHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondHand.swift; sourceTree = "<group>"; };
+		2407B4652C0D7ADC00190C13 /* MinuteHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinuteHand.swift; sourceTree = "<group>"; };
+		2407B4672C0D7B8000190C13 /* ClockFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockFace.swift; sourceTree = "<group>"; };
+		2407B4692C0D7BBB00190C13 /* ClockHands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockHands.swift; sourceTree = "<group>"; };
+		2407B46B2C0D7BF700190C13 /* AnalogClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				2407B4422C0D736B00190C13 /* Analog_ClockApp.swift */,
-				2407B4442C0D736B00190C13 /* ContentView.swift */,
-				2407B4462C0D736B00190C13 /* ImmersiveView.swift */,
+				24E6E8892C180C59008470E5 /* Components */,
+				24E6E8882C180C4B008470E5 /* Helper */,
+				2407B4602C0D7AB200190C13 /* Hands */,
 				2407B4482C0D736D00190C13 /* Assets.xcassets */,
 				2407B44D2C0D736D00190C13 /* Info.plist */,
 				2407B44A2C0D736D00190C13 /* Preview Content */,
@@ -112,6 +123,34 @@
 				2407B4562C0D736D00190C13 /* Analog_ClockTests.swift */,
 			);
 			path = "Analog ClockTests";
+			sourceTree = "<group>";
+		};
+		2407B4602C0D7AB200190C13 /* Hands */ = {
+			isa = PBXGroup;
+			children = (
+				2407B4612C0D7AC800190C13 /* HourHand.swift */,
+				2407B4632C0D7AD400190C13 /* SecondHand.swift */,
+				2407B4652C0D7ADC00190C13 /* MinuteHand.swift */,
+			);
+			path = Hands;
+			sourceTree = "<group>";
+		};
+		24E6E8882C180C4B008470E5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2407B4442C0D736B00190C13 /* ContentView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		24E6E8892C180C59008470E5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2407B4672C0D7B8000190C13 /* ClockFace.swift */,
+				2407B4692C0D7BBB00190C13 /* ClockHands.swift */,
+				2407B46B2C0D7BF700190C13 /* AnalogClockView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +258,12 @@
 			files = (
 				2407B4452C0D736B00190C13 /* ContentView.swift in Sources */,
 				2407B4432C0D736B00190C13 /* Analog_ClockApp.swift in Sources */,
-				2407B4472C0D736B00190C13 /* ImmersiveView.swift in Sources */,
+				2407B4662C0D7ADC00190C13 /* MinuteHand.swift in Sources */,
+				2407B46C2C0D7BF700190C13 /* AnalogClockView.swift in Sources */,
+				2407B4682C0D7B8000190C13 /* ClockFace.swift in Sources */,
+				2407B4642C0D7AD400190C13 /* SecondHand.swift in Sources */,
+				2407B46A2C0D7BBB00190C13 /* ClockHands.swift in Sources */,
+				2407B4622C0D7AC800190C13 /* HourHand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
